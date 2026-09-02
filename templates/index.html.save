@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NIDS Dashboard</title>
+	<meta charset="UTF-8">
+	<style>
+		body {
+		   font-family: Arial, sans-serif;
+		   background-color: #f2f2f2;
+		   margin 0;
+                }
+                .header {
+		    background-color: #222;
+		    color: white;
+		    padding:20px;

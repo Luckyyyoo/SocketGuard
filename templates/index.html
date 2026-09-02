@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SocketGuard</title>
+    <meta charset="UTF-8">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        .header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        table {
+            width: 100%;
+            background-color: white;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .high {
+            color: red;
+            font-weight: bold;
+        }
+
+        .safe {
+            color: green;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>SocketGuard</h1>
+        <p>Network Intrusion Detection System</p>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <h2>System Status</h2>
+            <p class="safe">
+                ● NIDS Monitoring
+            </p>
+        </div>
+       
+       <div class="card">
+            <h2>Security Alerts</h2>
+            <p>
+                Total Alerts: {{ alerts|length }}
+            </p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Alert Type</th>
+                <th>Source IP</th>
+                <th>Ports</th>
+                <th>Severity</th>
+            </tr>
+            {% for alert in alerts %}
+            <tr>
+                <td>
+                    {{ alert.time }}
+                </td>
+                <td>
+                    {{ alert.type }}
+                </td>
+                <td>
+                    {{ alert.ip }}
+                </td>
+                <td>
+                    {{ alert.ports }}
+                </td>
+                <td class="high">
+                    {{ alert.severity }}
+                </td>
+            </tr>
+
+            {% endfor %}
+
+        </table>
+    </div>
+
+</body>
+
+</html>
