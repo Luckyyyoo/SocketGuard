@@ -9,7 +9,7 @@
 
 ---
 
-🚀 Features
+🚀 **Features**
 
 * 🔍 **Real-Time Packet Sniffing:** Leverages Scapy to inspect incoming TCP/IP network traffic directly from host interfaces.
 * ⚡ **Port Scan Detection:** Identifies rapid connection attempts across sequential ports within a configurable time threshold.
@@ -19,7 +19,7 @@
 
 ---
 
-🛠️ Architecture & Tech Stack
+🛠️ **Architecture & Tech Stack**
 
 * **Backend Engine:** Python 3, Scapy
 * **Web Server & Routing:** Flask
@@ -28,7 +28,7 @@
 
 ---
 
-📦 Directory Structure
+📦 **Directory Structure**
 
 ```text
 NIDS-Dashboard/
