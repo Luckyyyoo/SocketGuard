@@ -42,15 +42,15 @@ NIDS-Dashboard/
 
 ---
 
-** Testing Methodology **
+**Testing Methodology**
 
 ---
-** Challenges Encountered **
+**Challenges Encountered**
 During the development and testing, I encountered issues with packet capture permissions in Linux and VirtualBox network configuration. I learned how to configure virtual machine networking and use elevated privileges for packet inspection.
 
 ---
 
-❓ ** What I Learned **
+❓ **What I Learned**
 **Technical Skills Learned
 - Packet sniffing using Scapy
 - TCP/IP networking fundamentals
@@ -67,9 +67,9 @@ During the development and testing, I encountered issues with packet capture per
 
 ---
 
-** Screenshots **
+**Screenshots**
 
 
 ---
 
-** Future Improvements **
+**Future Improvements**
