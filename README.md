@@ -38,3 +38,38 @@ NIDS-Dashboard/
 │   └── index.html      # SocketGuard web dashboard view
 ├── .gitignore          # Environment & log exclusion rules
 └── README.md           # Project documentation
+```
+
+---
+
+** Testing Methodology **
+
+---
+** Challenges Encountered **
+During the development and testing, I encountered issues with packet capture permissions in Linux and VirtualBox network configuration. I learned how to configure virtual machine networking and use elevated privileges for packet inspection.
+
+---
+
+❓ ** What I Learned **
+**Technical Skills Learned
+- Packet sniffing using Scapy
+- TCP/IP networking fundamentals
+- Linux system administration
+- Virtual machine networking
+- JSON data handling
+- Nmap reconnaissance techniques
+
+** Cybersecurity Concepts Learned **
+- Intrusion Detection Systems (IDS)
+- Port scanning behavior
+- Network traffic analysis
+- Alert generation and monitoring
+
+---
+
+** Screenshots **
+
+
+---
+
+** Future Improvements **
