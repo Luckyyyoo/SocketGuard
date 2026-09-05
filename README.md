@@ -61,7 +61,7 @@ During the development and testing, I encountered issues with packet capture per
 - JSON data handling
 - Nmap reconnaissance techniques
 
-** Cybersecurity Concepts Learned **
+**Cybersecurity Concepts Learned**
 - Intrusion Detection Systems (IDS)
 - Port scanning behavior
 - Network traffic analysis
